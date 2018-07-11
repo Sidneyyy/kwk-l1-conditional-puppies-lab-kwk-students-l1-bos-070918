@@ -8,7 +8,7 @@ def no_puppies(number_of_puppies)
 end
 end
 
-puts no_puppies(5)
+puts no_puppies(0)
 # 2. Rachel's animal accumulation has been going well and we're going to cut her some slack. Write a new method called less_puppies that takes in a number of puppies as an argument and tells Rachel good job when she gets less than 3 puppies, to slow down if she's found exactly 3 puppies, and to get back on her animal restriction if she gets more than 3 puppies.
 
 def less_puppies(number_of_puppies)
@@ -32,7 +32,7 @@ def some_puppies(number_of_puppies, max)
 end
 end
 
-puts some_puppies(20, 25)
+puts some_puppies(0, 0)
 # BONUS
 # 4. Rachel has decided to track both her puppy allowance AND her cat allowance. Write a method called new_animal accumulation that takes in two arguments - number of puppies and number of cats. As long as she gets zero puppies OR zero cats this method should return "Good job!". If she gets 1 or more puppies AND 1 or more cats it should tell her she should really slow back down!
 
